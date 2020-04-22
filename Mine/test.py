@@ -1,5 +1,5 @@
 import numpy as np
-import neuralnetwork as nn
+from neuralnetwork import neuralnetwork as nn
 #from NeuralNetwork import ActivationFunctions as af
 
 
