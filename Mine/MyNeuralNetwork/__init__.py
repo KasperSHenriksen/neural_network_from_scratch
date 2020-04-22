@@ -1,1 +1,2 @@
-from 
+from MyNeuralNetwork import neuralnetwork
+from MyNeuralNetwork import activationfunctions

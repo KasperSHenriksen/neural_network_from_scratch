@@ -1,14 +1,12 @@
 import numpy as np
-from neuralnetwork import neuralnetwork as nn
-#from NeuralNetwork import ActivationFunctions as af
-
-
+from MyNeuralNetwork import neuralnetwork as nn
+#from MyNeuralNetwork import activationfunctions as activation
 
 model = nn.neuralnetwork.Model()
 model.add(nn.Layer(input_size=2,output_size=3,activation=af.ReLU))
-model.add(nn.Layer(input_size=3,output_size=3,activation=Activation_Functions.ReLU))
-model.add(nn.Layer(input_size=3,output_size=2,activation=Activation_Functions.ReLU))
-model.add(nn.Layer(input_size=2,output_size=2,activation=Activation_Functions.softmax))
+model.add(nn.Layer(input_size=3,output_size=3,activation=activation.ReLU))
+model.add(nn.Layer(input_size=3,output_size=2,activation=activation.ReLU))
+model.add(nn.Layer(input_size=2,output_size=2,activation=activation.softmax))
 model.summary()
 
 # EPOCHS = 5

@@ -1,4 +1,4 @@
-import NeuralNetwork as nn
+from MyNeuralNetwork import neuralnetwork as nn
 
 class Activation_Functions(nn):
     def __init__(self):
